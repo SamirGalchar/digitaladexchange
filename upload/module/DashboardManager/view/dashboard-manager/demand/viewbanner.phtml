@@ -7,7 +7,7 @@ $this->headScript()->prependFile($this->basePath() . '/js/script.js');
 $preview_query = $ispreview == true ? "?ispreview=true" : ""; 
 
 if ($ispreview == true):
-	$ad_campaign_id = $campaign_preview_id;
+	$ad_campaign_id = $campaign_preview_id; 
 else:
 	$ad_campaign_id = $campaign_id;
 endif;
